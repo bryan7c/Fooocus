@@ -1,12 +1,12 @@
 {
-    "default_model": "realisticStockPhoto_v20.safetensors",
+    "default_model": "Juggernaut_X_RunDiffusion_Hyper.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
             "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
-            0.25
+            0.35
         ],
         [
             true,
@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
+        "Juggernaut_X_RunDiffusion_Hyper.safetensors": "https://civitai.com/api/download/models/471120?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {

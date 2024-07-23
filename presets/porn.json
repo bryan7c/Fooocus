@@ -1,0 +1,58 @@
+{
+    "default_model": "Juggernaut_X_RunDiffusion_Hyper.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            false,
+            "NsfwPovAllInOneLoraSdxl-000009.safetensors",
+            1.0
+        ],
+        [
+            false,
+            "breasts_size_slider_pdxl_goofy.safetensors",
+            1.0
+        ],
+        [
+            false,
+            "Breast Slider - SDXL_alpha1.0_rank4_noxattn_last.safetensors",
+            1.0
+        ],
+        [
+            false,
+            "clothing_slider_v19_000000030.safetensors",
+            1.0
+        ],
+        [
+            false,
+            "nudify_xl_lite.safetensors",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 3.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "unrealistic, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "Juggernaut_X_RunDiffusion_Hyper.safetensors": "https://civitai.com/api/download/models/471120?type=Model&format=SafeTensor&size=full&fp=fp16"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "breasts_size_slider_pdxl_goofy.safetensors": "https://civitai.com/api/download/models/621385?type=Model&format=SafeTensor",
+        "Breast Slider - SDXL_alpha1.0_rank4_noxattn_last.safetensors": "https://civitai.com/api/download/models/535064?type=Model&format=SafeTensor",
+        "NsfwPovAllInOneLoraSdxl-000009.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
+        "nudify_xl_lite.safetensors": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensor",
+        "clothing_slider_v19_000000030.safetensors": "https://civitai.com/api/download/models/535064?type=Model&format=SafeTensor"
+    },
+    "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
+}

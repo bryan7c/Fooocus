@@ -4,13 +4,13 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            false,
+            true,
             "Cyberpunk _Anime_V2_light_version-SDXL.safetensors",
             1.0
         ],
         [
             false,
-            "anime_sdxl_v1.safetensors",
+            "None",
             1.0
         ],
         [
@@ -35,7 +35,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "low quality, bad quality, worst quality, low resolution, lowres, text, logo, watermark, simple background, intense color, realistic, deformed, bad artist, simple, bad hands, bad arms, bad legs, bad body, bad face, bad hairs, poorly drawn",
+    "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Semi Realistic",
@@ -48,8 +48,7 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "Cyberpunk _Anime_V2_light_version-SDXL.safetensors": "https://civitai.com/api/download/models/379278?type=Model&format=SafeTensor",
-        "anime_sdxl_v1.safetensors": "https://civitai.com/api/download/models/140052?type=Model&format=SafeTensor"
+        "Cyberpunk _Anime_V2_light_version-SDXL.safetensors": "https://civitai.com/api/download/models/379278?type=Model&format=SafeTensor"
     },
     "previous_default_models": [
         "animaPencilXL_v400.safetensors",
