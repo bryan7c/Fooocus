@@ -1,5 +1,5 @@
 {
-    "default_model": "Juggernaut_X_RunDiffusion_Hyper.safetensors",
+    "default_model": "lustifySDXLNSFWSFW_v10.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "Juggernaut_X_RunDiffusion_Hyper.safetensors": "https://civitai.com/api/download/models/471120?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "lustifySDXLNSFWSFW_v10.safetensors": "https://civitai.com/api/download/models/638929?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {

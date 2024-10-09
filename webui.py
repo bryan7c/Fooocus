@@ -570,7 +570,7 @@ with shared.gradio_root:
                                              value=modules.config.default_prompt_negative)
                 translate_prompts = gr.Checkbox(label='Translate Prompts',
                                                           info='Uses the internet to translate prompts to English.',
-                                                          value=False)
+                                                          value=True)
                 seed_random = gr.Checkbox(label='Random', value=True)
                 image_seed = gr.Textbox(label='Seed', value=0, max_lines=1, visible=False) # workaround for https://github.com/gradio-app/gradio/issues/5354
 
@@ -772,7 +772,7 @@ with shared.gradio_root:
                         mixing_image_prompt_and_vary_upscale = gr.Checkbox(label='Mixing Image Prompt and Vary/Upscale',
                                                                            value=False)
                         mixing_image_prompt_and_inpaint = gr.Checkbox(label='Mixing Image Prompt and Inpaint',
-                                                                      value=False)
+                                                                      value=True)
 
                         controlnet_softness = gr.Slider(label='Softness of ControlNet', minimum=0.0, maximum=1.0,
                                                         step=0.001, value=0.25,
@@ -866,7 +866,7 @@ with shared.gradio_root:
                                     queue=False, show_progress=False)
 
             with gr.Tab(label='Audio'):
-                play_notification = gr.Checkbox(label='Play notification after rendering', value=False)
+                play_notification = gr.Checkbox(label='Play notification after rendering', value=True)
                 notification_file = 'notification.mp3'
                 if os.path.exists(notification_file):
                     notification = gr.State(value=notification_file)

@@ -1,0 +1,22 @@
+# /usr/local/lib/python3.10/dist-packages/torchsummary-1.5.1.dist-info
+
+Metadata-Version: 2.1
+Name: torchsummary
+Version: 1.5.1
+Summary: Model summary in PyTorch similar to `model.summary()` in Keras
+Home-page: https://github.com/sksq96/pytorch-summary
+Author: Shubham Chandel @sksq96
+Author-email: shubham.zeez@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: ~=3.6
+Requires-Dist: boltons (>=20.2.1)
+Requires-Dist: torch (>=1.6.0)
+Requires-Dist: trampoline (>=0.1.2)
+Requires-Dist: numpy (==1.19.*) ; python_version < "3.7"
+Requires-Dist: scipy (==1.5.*) ; python_version < "3.7"
+Requires-Dist: numpy (>=1.19) ; python_version >= "3.7"
+Requires-Dist: scipy (>=1.5) ; python_version >= "3.7"
+UNKNOWN
